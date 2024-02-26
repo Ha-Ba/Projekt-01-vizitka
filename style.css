@@ -1,3 +1,80 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
+html { box-sizing: border-box;
+    font-family: "Audiowide", "Sofia", "Trirong", sans-serif; }
 *, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: #DEB887;
+    font-size: 16px;
+    line-height: 2;
+    margin: 0;  
+}
+
+h1, h2, h3, div, p {padding: 10px;}
+
+p {text-align: justify;}
+
+.hlavicka {
+    background-image: none;
+    margin: 0;
+    padding-top: 100px 0 100px 0;
+    background-color: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hlavicka h1 {
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 72px;
+    font-style: italic;
+    color: #FFFAF0;
+    text-shadow: 0 2px 10px #8B4513;
+    }
+
+.menuzk {
+    background-color: #8B4513;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+
+#menuzvirata li {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 60px;
+}
+
+.menuzk a:hover,
+.menuzk a:focus,
+.menuzk a:active {
+    background-color:#BDB76B;
+    color: green;
+    margin: 0;
+    padding: 0;
+}
+
+a {text-decoration: none;} 
+
+.hlavicka a {
+    padding: 10px;
+    text-decoration:none;
+}
+
+#Patička a {text-decoration: none;}
+
+#Patička {
+   background-color: #8B4513;
+   padding: 10px;
+   margin: 0;
+}
+
+
+
+
+
+
+
+
