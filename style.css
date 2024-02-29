@@ -90,8 +90,19 @@ a:visited {
     border-top: 2px solid darkgray;   
 }
 /*Obrázky ve fotogaleriích*/ 
-.fotobox1 {width: 100%;}
-.botobox2 {width: 100%;}
+.fotobox1 {
+    width: 100%;
+}
+
+.fotobox2 {
+    width: 100%;
+}
+
+.fotobox2 img {
+    width: 20%;
+
+}
+
 .img--cut {
     object-fit: cover;
     object-position: center;
