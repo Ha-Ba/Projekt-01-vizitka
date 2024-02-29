@@ -8,6 +8,7 @@ body {
     font-size: 16px;
     line-height: 2;
     margin: 0;  
+    max-width: auto;
 }
 
 .lokalita, .menuzk, .Toller, .Mix, .Bullmix {
@@ -17,9 +18,9 @@ body {
 p {text-align: justify;}
 
 .hlavicka {
-    background-image: url(Obrazky/řeka.jpg);
+    background-image: url(Obrazky/oba-zahlavi.jpg);
     margin: 0;
-    padding: 40px 0 10px 0;
+    padding: 40px 0 40px 0;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,7 +62,7 @@ color: #D2691E;
     margin: 0 50px;
     font-weight: bold;
 }
-   
+/*Odkazy - barvy a chování*/   
 .menuzk a:hover,
 .menuzk a:focus,
 .menuzk a:active {
@@ -69,9 +70,6 @@ color: #D2691E;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.5px;
       
-}
-.menuzk a:hover {
-   padding-bottom: auto; 
 }
 
 .menuzk a:visited {
@@ -83,7 +81,7 @@ color: #D2691E;
 a:visited {
     color: #682e05ef;
 }
-
+/*------------*/
 #Paticka {
     background-color: #57290b54;
     padding: 10px 50px 10px 10px;
@@ -91,13 +89,39 @@ a:visited {
     text-align: right;
     border-top: 2px solid darkgray;   
 }
-
-.fotoHawkeye img--cut {
+/*Obrázky ve fotogaleriích*/ 
+.fotobox1 {width: 100%;}
+.botobox2 {width: 100%;}
+.img--cut {
     object-fit: cover;
     object-position: center;
 }
 
-.img-cut {
-    object-fit:cover;
-    object-position: bottom;
+#fotogalerie img {
+width: 32%;
 }
+
+/*------------*/
+
+/*Profilové obrázky*/
+#Hawkeye img {
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#Tapka img {
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}    
+
+#Bella img {
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+} 
+/*------------*/
