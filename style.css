@@ -64,7 +64,7 @@ p {text-align: justify;}
     color: #D2691E;
     -webkit-text-stroke-color: #382b22;
     -webkit-text-stroke-width: 1px;
-    text-shadow: 7px 2px 7px #382b22;
+    text-shadow: 7px 2px 5px black;
     letter-spacing: 10px;
     }
 h2 {font-size: 42px;}
