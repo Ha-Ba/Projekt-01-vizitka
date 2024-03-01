@@ -3,14 +3,38 @@ html { box-sizing: border-box;
     font-family: "Audiowide", "Sofia", "Trirong", sans-serif; }
 *, ::after, ::before { box-sizing: inherit; }
 
+/*Základní nastavení*/
+html, body {
+	height: 100vh;
+}
+
+.main-container {
+	height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main-row {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+/*Konec - Základní nastavení*/
+
+/*Barvy*/
 body {
     background-color: #dfba8ae7;
+    
     font-size: 16px;
     line-height: 2;
     margin: 0;  
-    max-width: auto;
 }
+
 section {padding: 10px 50px}
+
+
 
 .h2-profilovka {
     float: right;
@@ -103,14 +127,12 @@ a:visited {
 /*Obrázky ve fotogaleriích*/ 
 .fotobox {
     width: 100%;
-    
-    -webkit-box-align: center;
+    text-align: center;
     }
 
 .fotobox img {
     width: 32%;
-    border-radius: 15%;
-   
+    border-radius: 15%;   
 }
 
 .img--cut {
@@ -154,5 +176,21 @@ a:visited {
     border-radius: 50%;
     margin: 50px 20px 0 0;
 }
+.Kontakt img {vertical-align: middle;
+overflow: auto;}
 
-/*------------*/
+
+/* Pro WordPress - pokus*/
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
