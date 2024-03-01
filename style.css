@@ -26,15 +26,12 @@ html, body {
 /*Barvy*/
 body {
     background-color: #dfba8ae7;
-    
     font-size: 16px;
     line-height: 2;
     margin: 0;  
 }
 
 section {padding: 10px 50px}
-
-
 
 .h2-profilovka {
     float: right;
@@ -132,7 +129,7 @@ a:visited {
 
 .fotobox img {
     width: 32%;
-    border-radius: 15%;   
+    border-radius: 15%;  
 }
 
 .img--cut {
