@@ -10,10 +10,18 @@ body {
     margin: 0;  
     max-width: auto;
 }
+section {padding: 10px 50px}
 
-.lokalita, .menuzk, .Toller, .Mix, .Bullmix {
-    padding: 0 10px;
+.h2-profilovka {
+    float: right;
 }
+
+#menu, #Paticka {
+    padding:0;
+    margin: 0;
+}
+
+.jmena {float: left;}
 
 p {text-align: justify;}
 
@@ -26,9 +34,9 @@ p {text-align: justify;}
     background-size: cover;
 }
 
-
 .hlavicka h1 {
     margin: 0;
+    line-height: 1.1;
     text-align: center;
     font-weight: bold;
     font-size: 72px;
@@ -38,6 +46,7 @@ p {text-align: justify;}
     text-shadow: 7px 2px 7px #382b22;
     letter-spacing: 10px;
     }
+h2 {font-size: 42px;}
 
 a {text-decoration: none;
 color: #D2691E;
@@ -62,14 +71,14 @@ color: #D2691E;
     margin: 0 50px;
     font-weight: bold;
 }
+
 /*Odkazy - barvy a chování*/   
 .menuzk a:hover,
 .menuzk a:focus,
 .menuzk a:active {
     background-color:#BDB76B;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.5px;
-      
+    -webkit-text-stroke-width: 0.5px;  
 }
 
 .menuzk a:visited {
@@ -81,6 +90,7 @@ color: #D2691E;
 a:visited {
     color: #682e05ef;
 }
+
 /*------------*/
 #Paticka {
     background-color: #57290b54;
@@ -89,29 +99,24 @@ a:visited {
     text-align: right;
     border-top: 2px solid darkgray;   
 }
+
 /*Obrázky ve fotogaleriích*/ 
-.fotobox1 {
+.fotobox {
     width: 100%;
-}
+    
+    -webkit-box-align: center;
+    }
 
-.fotobox2 {
-    width: 100%;
-}
-
-.fotobox2 img {
-    width: 20%;
-
+.fotobox img {
+    width: 32%;
+    border-radius: 15%;
+   
 }
 
 .img--cut {
     object-fit: cover;
     object-position: center;
 }
-
-#fotogalerie img {
-width: 32%;
-}
-
 /*------------*/
 
 /*Profilové obrázky*/
@@ -119,20 +124,35 @@ width: 32%;
     float: left;
     height: 50px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin: 50px 20px 0 0;
 }
 
 #Tapka img {
     float: left;
     height: 50px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin: 50px 20px 0 0;
 }    
 
 #Bella img {
     float: left;
     height: 50px;
     border-radius: 50%;
-    margin-right: 20px;
+    margin: 50px 20px 0 0;
+    
 } 
+.H-profilovka {
+    float: right;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 10px;
+    }
+
+.lokalita-profilovka {
+    float: left;
+    height: 50px;
+    border-radius: 50%;
+    margin: 50px 20px 0 0;
+}
+
 /*------------*/
