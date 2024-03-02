@@ -56,8 +56,6 @@ a {
     text-shadow: 5px 7px 5px black;
     }
 
-
-
 .menuzk {
     background-color: #57290b54;
     text-align: center;
@@ -76,6 +74,10 @@ a {
     display: inline-block;
     margin: 0 50px;
     font-weight: bold;
+}
+
+.menuzk a {
+    display: inline-block;
 }
 
 /*Odkazy - barvy a chování*/   
