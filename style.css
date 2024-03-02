@@ -31,7 +31,9 @@ body {
     margin: 0;  
 }
 
-section {padding: 10px 50px}
+section {padding: 10px 50px;
+    overflow: auto
+}
 
 .h2-profilovka {
     float: right;
@@ -42,14 +44,12 @@ section {padding: 10px 50px}
     margin: 0;
 }
 
-.jmena {float: left;}
-
 p {text-align: justify;}
 
 .hlavicka {
     background-image: url(Obrazky/oba-zahlavi.jpg);
     margin: 0;
-    padding: 40px 0 40px 0;
+    padding: 40px 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -61,28 +61,30 @@ p {text-align: justify;}
     text-align: center;
     font-weight: bold;
     font-size: 72px;
+    letter-spacing: 10px;
     color: #D2691E;
     -webkit-text-stroke-color: #382b22;
-    -webkit-text-stroke-width: 1px;
-    text-shadow: 7px 2px 5px black;
-    letter-spacing: 10px;
+    -webkit-text-stroke-width: 0.5px;
+    text-shadow: 5px 7px 5px black;
     }
+
 h2 {font-size: 42px;}
 
-a {text-decoration: none;
-color: #D2691E;
+a {
+    text-decoration: none;
+    color: #D2691E;
 } 
 
 .menuzk {
     background-color: #57290b54;
     text-align: center;
     font-size: 36px;
-    padding: 5px 0;
+    padding: 0;
     margin: 0;
     letter-spacing: 3px;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.5px;
-    text-shadow: 7px 2px 5px black;
+    text-shadow: 5px 7px 5px black;
     border-bottom: 2px solid darkgray;
     border-top: 2px solid darkgray;
     }
@@ -94,12 +96,18 @@ color: #D2691E;
 }
 
 /*Odkazy - barvy a chování*/   
+.menuzk a {
+    padding: 15px 30px;
+    display: inline-block;
+}
+/*#BDB76B*/
 .menuzk a:hover,
 .menuzk a:focus,
 .menuzk a:active {
-    background-color:#BDB76B;
+    background-color:#662d0741;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 0.5px;  
+    -webkit-text-stroke-width: 0.5px;
+    margin: 0;  
 }
 
 .menuzk a:visited {
@@ -125,20 +133,35 @@ a:visited {
 .fotobox {
     width: 100%;
     text-align: center;
-    }
+    overflow: auto;}
 
-.fotobox img {
-    width: 32%;
-    border-radius: 15%;  
+    .fotobox-tapka {
+        width: 100%;
+        text-align: center;
+        overflow: auto;
+        margin-top:  0;
+    }
+    
+#onas, #Hawkeye, #Bella, #Tapka {
+    clear: right;
 }
 
 .img--cut {
     object-fit: cover;
     object-position: center;
+    width: 32%;
+    border-radius: 15%;
 }
 /*------------*/
+#T-obtekani {
+float: right;    
+margin-left: 20px;
+    object-position: center;
+    width: 32%;
+    border-radius: 15%;
+}
 
-/*Profilové obrázky*/
+/*Obrázky a Profilové obrázky*/
 #Hawkeye img {
     float: left;
     height: 50px;
@@ -160,12 +183,13 @@ a:visited {
     margin: 50px 20px 0 0;
     
 } 
+
 .H-profilovka {
     float: right;
     height: 35px;
     border-radius: 50%;
     margin-left: 10px;
-    }
+}
 
 .lokalita-profilovka {
     float: left;
@@ -173,21 +197,8 @@ a:visited {
     border-radius: 50%;
     margin: 50px 20px 0 0;
 }
-.Kontakt img {vertical-align: middle;
-overflow: auto;}
 
-
-/* Pro WordPress - pokus*/
-code,
-pre {
-  background: #eee;
-}
-
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-}
-
-pre {
-  padding: 1em;
+.Kontakt img {
+    vertical-align: middle;
+    overflow: auto;
 }
