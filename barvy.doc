@@ -1,0 +1,25 @@
+pozadí body:            #dfba8ae7
+pozadí hlavičky:        Obrazky/oba-zahlavi.jpg
+
+background-color:       #57290b54
+pozadí aktivního menu:  #BDB76B
+
+-- h+m = hlavička a menu--
+
+h1, h2 (h+m):               #D2691E
+h1, h2 obrys textu (h+m):   #382b22  
+h1 stín v hlavičce:         black   
+
+horní+dolní ohraničení menu a horní u patičky: darkgray
+
+odkaz v textu odstavce:
+odkaz v textu odstavce visited:
+odkaz v textu odstavce hover:
+
+menuzk -> a:hover, a:focus, a:active:
+background-color:           #BDB76B;
+-webkit-text-stroke-color:  black;
+-webkit-text-stroke-width:  0.5px;
+
+menuzk a:visited:           #D2691E
+obryx menuzk a:visited:     black

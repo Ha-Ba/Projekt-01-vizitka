@@ -3,27 +3,7 @@ html { box-sizing: border-box;
     font-family: "Audiowide", "Sofia", "Trirong", sans-serif; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*Základní nastavení*/
-html, body {
-	height: 100vh;
-}
-
-.main-container {
-	height: 100%;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.main-row {
-	height: 100%;
-	display: flex;
-	align-items: center;
-	text-align: center;
-}
-/*Konec - Základní nastavení*/
-
-/*Barvy*/
+/*Barvy */
 body {
     background-color: #dfba8ae7;
     font-size: 16px;
@@ -31,25 +11,33 @@ body {
     margin: 0;  
 }
 
-section {padding: 10px 50px;
-    overflow: auto
+section {
+    padding: 10px 50px;
+    overflow: auto;
 }
 
-.h2-profilovka {
-    float: right;
-}
+img {overflow: auto;}
+
+p {text-align: justify;}
+
+.h2-profilovka {float: right;}
+
+h2 {font-size: 42px;}
+
+a {
+    text-decoration: none;
+    color: #D2691E;
+} 
 
 #menu, #Paticka {
     padding:0;
     margin: 0;
 }
 
-p {text-align: justify;}
-
 .hlavicka {
     background-image: url(Obrazky/oba-zahlavi.jpg);
     margin: 0;
-    padding: 40px 20px;
+    padding: 60px 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,12 +56,7 @@ p {text-align: justify;}
     text-shadow: 5px 7px 5px black;
     }
 
-h2 {font-size: 42px;}
 
-a {
-    text-decoration: none;
-    color: #D2691E;
-} 
 
 .menuzk {
     background-color: #57290b54;
@@ -96,15 +79,11 @@ a {
 }
 
 /*Odkazy - barvy a chování*/   
-.menuzk a {
-    padding: 15px 30px;
-    display: inline-block;
-}
-/*#BDB76B*/
+
 .menuzk a:hover,
 .menuzk a:focus,
 .menuzk a:active {
-    background-color:#662d0741;
+    background-color:#BDB76B;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.5px;
     margin: 0;  
@@ -142,9 +121,10 @@ a:visited {
         margin-top:  0;
     }
     
-#onas, #Hawkeye, #Bella, #Tapka {
+    #onas, #Hawkeye, #Bella, #Tapka {
     clear: right;
 }
+    
 
 .img--cut {
     object-fit: cover;
@@ -183,22 +163,20 @@ margin-left: 20px;
     margin: 50px 20px 0 0;
     
 } 
-
 .H-profilovka {
     float: right;
     height: 35px;
     border-radius: 50%;
     margin-left: 10px;
-}
+    }
 
 .lokalita-profilovka {
     float: left;
     height: 50px;
     border-radius: 50%;
     margin: 50px 20px 0 0;
+    
 }
-
 .Kontakt img {
     vertical-align: middle;
-    overflow: auto;
-}
+    overflow: auto;}
